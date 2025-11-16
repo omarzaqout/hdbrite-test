@@ -1,0 +1,22 @@
+{
+  "name": "test-hdbrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:headed:chromium": "playwright test --headed --project=chromium",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed:web": "playwright test --headed --project=webkit",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  }
+}

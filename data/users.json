@@ -1,0 +1,10 @@
+{
+    "OPS": {
+        "userName": "ops@hdtest.com",
+        "password": "ChangeMe@123"
+    },
+    "installer": {
+        "userName": "installer@hdtest.com",
+        "password": "ChangeMe@123"
+    }
+}
